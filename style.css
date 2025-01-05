@@ -72,7 +72,9 @@ body {
 
 .right {
     flex: 1;
-    background: url("./assets/back-right-img.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    /* background: url("./assets/back-right-img.jpg") no-repeat center center/cover; */
 }
 
 @media (max-width: 768px) {
@@ -84,5 +86,6 @@ body {
 
     .right {
         height: 200px;
+        display: none;
     }
 }
